@@ -1,0 +1,157 @@
+.signUpButton {
+    background: linear-gradient(270deg, #3A1593 0%, #8E65F0 112.16%);
+    border-radius: 50px;
+    padding: 0px 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.heading1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 119%;
+}
+
+.boldHeading {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 119%;
+}
+
+.customButton {
+    background: linear-gradient(270deg, #3A1593 0%, #8E65F0 112.16%);
+    border-radius: 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 10px 20px;
+}
+
+.animatedButton {
+    border-radius: 0px 25px;
+    padding: 10px 40px;
+}
+
+.heading2 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.sellAnythingSection .content {
+    transform: skewY(6deg); 
+}
+
+[type=radio] {
+  display: none;
+}
+  
+#slider {
+  height: 37vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+  
+#slider label {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s4:checked ~ #slide2{
+  transform: translate3d(55%,0,-100px);
+  box-shadow: 0px 2.88476px 2.88476px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.7;
+  border-radius: 25.2416px !important;
+}
+
+#s3:checked ~ #slide2, #s4:checked ~ #slide3{
+  transform: translate3d(-55%,0,-100px);
+  box-shadow: 0px 2.88476px 2.88476px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.7;
+  border-radius: 25.2416px !important;
+}
+
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4{
+  transform: translate3d(0,0,0);
+}
+
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide4{
+  transform: translate3d(55%,0,-100px);
+  box-shadow: 0px 2.88476px 2.88476px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.7;
+  border-radius: 25.2416px !important;
+}
+
+#s2:checked ~ #slide4{
+  transform: translate3d(-55%,0,-100px);
+  box-shadow: 0px 2.88476px 2.88476px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.7;
+  border-radius: 25.2416px !important;
+}
+
+.custom-swiperSlider {
+  width: 263.8px; 
+  margin-right: 50px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 116px!important;
+}
+
+.swiper-full-mobile {
+  position: relative;
+  margin: 50px auto;
+  padding-bottom: 50px;
+}
+
+.swiper-full-mobile:before {
+  content: "";
+  width: 427px;
+  background: url("../img/phone-frame.svg") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: 745px;
+  z-index: 2;
+  margin: auto;
+}
+
+.swiper-full-mobile .swiper-slide {
+  height: 100%;
+}
+
+.swiper-full-mobile .swiper-slide img{
+  width: 270px;
+  height: 395px;
+}
+
+.swiper-slide.swiper-slide-active img {
+  border-radius: 40px;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.09);
+  text-align: center;
+}
+
+.swiperBuyNowButton {
+  z-index: 100;
+}
+
+.child-with-flag {
+  margin-top: -40px;
+  margin-bottom: -150px;
+}
