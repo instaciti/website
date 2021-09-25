@@ -1,0 +1,285 @@
+body {
+    font-family:poppins,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.customGapping {
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.marginLeftPaddingRight {
+    margin-left: 10%;
+    padding-right: 10%;
+}
+
+.bgTransparent {
+    background-color: transparent !important;
+}
+
+.bgOrange {
+    background-color: #F15A25;
+}
+
+.bgLightPurple {
+    background: #FAF8FF;
+}
+
+.bgLightGreen {
+    background: #16B6AA;
+}
+
+.bgLightYellow {
+    background-color: #FFFCE6;
+}
+
+.bgLightSkyGreen {
+    background-color: #ECFFEE;
+}
+
+.bgDarkFaceColor {
+    background-color: #FDEDE2;
+}
+
+.bgSkyBlue {
+    background-color: #B7F4FF;
+}
+
+.bgCustomPurple {
+    background-color: #3A1593;
+}
+
+.bgLinearGradient {
+    background: linear-gradient(90deg, #3A1593 26.01%, #8C5CFF 100%);
+}
+
+.sellAnythingSection {
+    background: rgba(222, 233, 252, 0.5);
+    transform: skewY(-6deg);
+}
+
+.colorOrange {
+    color: #F15A25;
+}
+
+.colorYellow {
+    color: #F2AD22;
+}
+
+.colorGreen {
+    color: #008001;
+}
+
+.colorLightBlack {
+    color: #213E6E;
+}
+
+.colorLightBlack a {
+    color: #213E6E !important;
+}
+
+.colorBrown {
+    color: #681B00;
+}
+
+.customColor {
+    color:  #3E1897;
+}
+
+.customColor a {
+    color:  #3E1897 !important;
+}
+
+.darkBlack {
+    color: #424242;
+}
+
+.lightBlack {
+    color: #464458;
+}
+
+.darkPurple {
+    color: #3E4152;
+}
+
+.mutedColor {
+    color: #848484;
+}
+
+.lightMuted {
+    color: #8D8D8D;;
+}
+
+.lightMuted a {
+    color: #8D8D8D;;
+}
+
+.darkMuted {
+    color: #7C7B84;
+}
+
+.paragraphMutedColor {
+    color: #666666;
+}
+
+.colorDarkSky {
+    color: #16B6AA;
+}
+
+.customPurple {
+    color: #3A1593;
+}
+
+.customPurple a {
+    color: #3A1593;
+}
+
+.colorBlack {
+    color: #252525;
+}
+
+.transformText {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.font600 {
+    font-weight: 600;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.font36 {
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.font28 {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.font24 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.font20 {
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.font18 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.font16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.font13 {
+    font-size: 13.64px;
+    line-height: 20.45px;
+}
+
+.font12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.rightText {
+    float: right;
+}
+
+.overLayerImage {
+    background-image: url("../img/apps3 2.svg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orangeGradientButton {
+    background: linear-gradient(90deg, #FF6525 0%, #FFA942 100%);
+}
+
+.borderRadius10 {
+    border-radius: 10px;
+}
+
+.borderRadius15 {
+    border-radius: 15px;
+}
+
+.borderRadius20 {
+    border-radius: 20px;
+}
+
+.borderRadius35 {
+    border-radius: 35px;
+}
+
+.borderRadius50 {
+    border-radius: 50px;
+}
+
+.borderRadiusHalf20 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.highBoxShadow {
+    box-shadow: 0px 0px 75px 10px #D9E5FF;
+}
+
+.cardTopHover {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    position: relative; 
+}
+
+.cardTopHover:hover {
+    transform: translate(0, -20px);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}
+
+/* Testmonials Section */
+.testimonialsSection {
+    background-image: url("../img/testimonial-bg.svg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customBoxShadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textDecorationNone a {
+    text-decoration: none;
+}
+
+.topSecureButton {
+    animation: nudge 2s ease-in-out infinite;
+}
+
+@keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(-40px, 0);
+    }
+}
+
+.mobileView {
+    visibility: hidden;
+}
