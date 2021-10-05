@@ -53,7 +53,7 @@
     }
     
     .videoWidth {
-        width: 300px !important;
+        width: 350px !important;
     }
 
     .responsiveTextAlign {
@@ -62,6 +62,7 @@
 
     .responsiveJustifyContent {
         justify-content: center;
+        padding-top: 10px!important;
     }
 
     .heading1 {
