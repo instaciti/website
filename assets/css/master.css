@@ -54,6 +54,10 @@ body {
     background: linear-gradient(90deg, #3A1593 26.01%, #8C5CFF 100%);
 }
 
+.lightPurple {
+    background-color: #F9F9FF;
+}
+
 .sellAnythingSection {
     background: rgba(222, 233, 252, 0.5);
     transform: skewY(-6deg);
@@ -107,6 +111,10 @@ body {
     color: #848484;
 }
 
+.listMuted {
+    color: #5A5A5A;
+}
+
 .lightMuted {
     color: #8D8D8D;;
 }
@@ -139,6 +147,18 @@ body {
     color: #252525;
 }
 
+.mutedTextColor {
+    color: #979899;
+}
+
+.headingMuted {
+    color: #8D8989;
+}
+
+.labelMuted {
+    color: #616161;
+}
+
 .transformText {
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -151,9 +171,24 @@ body {
     font-weight: 500;
 }
 
+.font65 {
+    font-size: 65px;
+    Line-height: 97.5px;
+}
+
+.font50 {
+    font-size: 50px;
+    line-height: 65.5px;
+}
+
 .font36 {
     font-size: 36px;
     line-height: 47px;
+}
+
+.font30 {
+    font-size: 30px;
+    line-height: 45px;
 }
 
 .font28 {
@@ -282,4 +317,42 @@ body {
 
 .mobileView {
     visibility: hidden;
+}
+
+/* Pricing Page Start */
+.pricingHeaadingColor {
+    color: #39374D;
+}
+
+.pricingTableCard {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.formCard {
+    box-shadow: 0px 4px 75px 5px rgba(217, 229, 255, 0.5);
+}
+
+.notVisible {
+    visibility: hidden;
+}
+
+.mutedAddress {
+    color: #6A6A6A;
+}
+
+.mutedAddress a {
+    color: #6A6A6A;
+}
+
+.backgroundSkewMinus {
+    transform: skew(0deg, -10deg);
+}
+
+.backgroundSkewPlus {
+    transform: skew(0deg, 10deg);
+}
+
+.radio-check:checked {
+    background-color: #3A1593 !important;
+    border-color: #3A1593 !important;
 }
